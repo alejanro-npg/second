@@ -6,8 +6,99 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
-  <app-root></app-root>
+  <h1 style="text-align: center;">Calculadora</h1>
+  </tbody>
+
+  <div style="background-color: rgb(244, 244, 247);"  class="container">
+    <div style=  "background-color: rgba(72, 15, 32, 0.31);" class="container">
+      <div style="height: 630px;" class="row">
+
+  <div class="col-sm-12">  
+    <table style="background-color: white; border: rgb(43, 41, 41);" class="table" >
+
+      <tr>
+        <td style="border: rgb(43, 41, 41) 3px solid;" > 
+         
+          <p id="first"></p>
+          </td>
+        
+      </tr>
+      <tr>
+        <td style="border: rgb(43, 41, 41) 3px solid;" >  
+          
+          <p id="second"></p> </td>
+        
+      </tr>
+      <tr>
+        <td style="border: rgb(43, 41, 41) 3px solid;" > 
+          
+          <p id="third"></p> </td>
+        
+      </tr>
+   
+          
+    </tbody>
+    <table style="background-color: white; border: rgb(51, 48, 48) 3px solid;" class="table" >
+
+    <tr>
+      <td style="border: rgb(51, 48, 48);" > <p>Input</p> <p id="tabla"></p> </td>
+      
+    </tr>
+   <tr>
+      
+      
+  </tbody>
+</table></div>
+<div class="row">
+  <div class="col-sm"> <button type="button" class="btn btn-danger" id="Abre">(</button></div>
+  <div class="col-sm"> <button type="button" class="btn btn-danger" id="Cierra">)</button></div>
+  <div class="col-sm"> <button type="button" class="btn btn-warning" id="Pi">π</button></div>
+  <div class="col-sm"> <button type="button" class="btn btn-warning" id="Euler">$$e^x$$</button></div>
+  <div class="col-sm"> <button type="button" class="btn btn-warning" id="Log">ln</button></div>
+  </div>
+    <div class="row">
+    <div class="col-sm"> <button type="button" class="btn btn-secondary" id="Sin">Sin</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-secondary" id="Cos">Cos</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-secondary" id="Tan">Tan</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-success" id="Potencia">^</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-success" id="Raiz">√</button></div>
+    </div>
+    <div class="row">
+    <div class="col-sm"> <button type="button" class="btn btn-info" id="Seven">7</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-info" id="Eight">8</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-info" id="Nine">9</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-danger" id="DEL">DEL</button></div>
+    <div class="col-sm"> <button  type="button" class="btn btn-danger" id="AC">AC</button></div>
+    </div>
+    <div class="row">
+    <div class="col-sm"> <button type="button" class="btn btn-info" id="Fourth">4</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-info" id="Five">5</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-info" id="Six">6</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-success" id="Mult">x</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-success" id="Div">÷</button></div>
+    </div>
+    <div class="row">
+    <div class="col-sm"> <button type="button" class="btn btn-info" id="One">1</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-info" id="Two">2</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-info" id="Three">3</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-success" id="Sum">+</button></div>
+    <div class="col-sm"> <button type="button" class="btn btn-success" id="Rest">-</button></div>
+    </div>
+    <div class="row">
+      <div class="col-sm"> <button type="button" class="btn btn-info" id="Zero">0</button></div>
+      <div class="col-sm"> <button type="button" class="btn btn-warning" id="Point">.</button></div>
+      <div class="col-sm"> <button type="button" class="btn btn-warning" id="Exp">Exp</button></div>
+      <div class="col-sm"> <button type="button" class="btn btn-danger" id="Ans">Ans</button></div>
+      <div class="col-sm"> <button type="button" class="btn btn-danger" id="Igual">=</button></div>
+   
+  
+ </div>
+  </div>
+</div>
 </body>
 </html>
